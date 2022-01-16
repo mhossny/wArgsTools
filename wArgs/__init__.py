@@ -1,6 +1,6 @@
 '''wArgsTools
 Author: Mo Hossny
-Email: m.hossny@research.deakin.edu.au
+Email: mhossny@ieee.org
 
 This module encapsulates functions and classes to parse args and kwargs of
 callable object and construct `argparse` argument parser. The callable
