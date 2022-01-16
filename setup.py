@@ -12,7 +12,7 @@ setuptools.setup(
     description="A wrapping tool to inspect and exports callable args into an argparse parser",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://www.deakin.edu.au/about-deakin/people/mohammed-hossny",
+    url="https://github.com/mhossny/wArgsTools.git",
     packages=setuptools.find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
