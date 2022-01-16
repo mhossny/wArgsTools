@@ -1,0 +1,23 @@
+import torch
+import torch.nn as nn
+import torchvision as tv
+
+from torch.optim import Adam, SGD
+from math import pi
+
+from wArgs import wildArgs, wArgs, wArgsCall, wArgsClass, wArgsChk, wArgsInit, struct
+
+wArgsInit(globals())
+
+print(SGD)
+def func(optm=None, loss=None, epochs=1000):
+    return struct(**locals())
+
+func_wArgs = wArgs(func)
+wArgsChk()
+
+args = func_wArgs()
+
+#args = wildArgs(v1=None, v2=None, N=1000)
+
+print(args)
