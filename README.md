@@ -1,4 +1,4 @@
-# wArgsTools Package Version 0.2
+# wArgsTools Package Version 0.2 
 
 This is a simple package which inspects callables and constructs an argparse.
 Most permissive thing ever. Use it anyway you want for any purpose you want.
