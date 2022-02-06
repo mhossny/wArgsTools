@@ -16,7 +16,7 @@ values. The module relies heavily on `argparse` and `inspect` modules.
 - wArgsClass: Lazy argument parsing of classes which returns a class_wArgs to instantiate objects from it later. Supports inherit\
 ance
 - wArgsInit: Allows entry point to globals into the wArgs.core module. Essential for python eval'd arguments (e.g. None and obje\
-ct)
+ct).
 - wArgsCheck: Checks for -h/--help and unrecognised arguments.
 - wArgsHelp: Produces help of all objects using wArgs.
 - wildArgs: Lite weight and EAGER wArgs encapsulator allows on the spot CLI arg for a selected local variables.
